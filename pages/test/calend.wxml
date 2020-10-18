@@ -1,0 +1,23 @@
+<view class="calend-test">
+  <view class="header"></view>
+  <card>
+    <view class="booking-info">
+      <view class="address-and-date">
+        <view class="address-icon"></view>
+        <view class="main">
+          <view class="address">爱康国宾北京西直门体检分院5层</view>
+          <view class="date-box">
+            <view>预约时间</view>
+            <view class="date">2020-06-07</view>
+            <view class="time">09:00</view>
+          </view>
+        </view>
+      </view>
+      <view class="check-item">
+        <view class="check-item-desc">共13项检查项目</view>
+        <view class="right-icon"></view>
+      </view>
+    </view>
+  </card>
+  <calendar></calendar>
+</view>

@@ -1,0 +1,11 @@
+.custom-card:empty {
+  display: none;
+}
+
+.custom-card {
+  border-radius: 16rpx;
+  box-sizing: border-box;
+  margin: 0 24rpx 20rpx;
+  padding: 24rpx 32rpx;
+  background-color: #fff;
+}

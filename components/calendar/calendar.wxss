@@ -1,0 +1,86 @@
+.calendar {
+  background-color: #F8F8FA;
+}
+.calendar .calendar-title {
+  background-color: #fff;
+  height: 96rpx;
+  border-radius: 40rpx 40rpx 0 0;
+  line-height: 96rpx;
+  color: #2A2827;
+  font-size: 32rpx;
+  font-weight: 500;
+  padding-left: 32rpx;
+  box-sizing: border-box;
+  border-radius: 40rpx 40rpx 0 0;
+}
+
+.calendar .calendar-main {
+  background-color: #fff;
+}
+
+.calendar .calendar-main .week-bar{
+  background-color: #fff;
+  margin: 0 20rpx;
+  background-color: #F8F8FA;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 30rpx;
+  line-height: 60rpx;
+  height: 60rpx;
+  font-size: 24rpx;
+  color: #808080;
+  border-radius: 10rpx;
+}
+
+.calendar .calendar-main .months-box {
+  padding: 0 10rpx;
+  overflow-y: scroll;
+}
+
+.calendar .calendar-main .months-box .month-item {
+  position: relative;
+}
+
+.calendar .calendar-main .months-box .month-item .month-title {
+  height: 72rpx;
+  font-size: 32rpx;
+  color: #333333;
+  line-height: 72rpx;
+  text-align: center;
+}
+
+.calendar .calendar-main .months-box .month-item .days {
+  display: flex;
+  flex-wrap: wrap;
+  flex-shrink: 0;
+}
+
+.calendar .calendar-main .months-box .month-item .days .day-item {
+  height: 150rpx;
+  width: 104rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.calendar .calendar-main .months-box .month-item .days .day-item .day-block.active-item {
+  background-color:#FE7725;
+  color: #fff;
+  width: 100%;
+}
+
+.calendar .calendar-main .months-box .month-item .days .day-item .day-block {
+  height: 120rpx;
+  color: #BBBBBB;
+  font-size: 32rpx;
+  font-weight: 500;
+  text-align: center;
+  width: 100%;
+  border-radius: 8rpx;
+}
+
+.day-number {
+  width: 100%;
+  padding-top: 24rpx;
+}

@@ -1,0 +1,76 @@
+.calend-test {
+  background: #F8F8FA;
+  height: 100vh;
+  overflow-y: scroll;
+}
+.calend-test .header {
+  height: 88rpx;
+  background-color: #fff;
+  margin-bottom: 24rpx;
+}
+
+.booking-info {
+  margin-bottom: 20rpx;
+}
+.booking-info .address-and-date {
+  display: flex;
+  align-items: center;
+  border-bottom: 1rpx solid #ECEEEF;
+}
+.booking-info .address-and-date .address-icon {
+  flex-shrink: 0;
+  width: 48rpx;
+  height: 48rpx;
+  margin-right: 20rpx;
+  background-size: 100%;
+  background-image: url("data:image/png;base64,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");
+}
+
+.booking-info .address-and-date .main {
+  flex: 1;
+}
+
+.booking-info .address-and-date .main .address {
+  font-size: 36rpx;
+  font-weight: 500;
+  color: #2B2827;
+  line-height: 40rpx;
+  padding-bottom: 12rpx;
+}
+
+.booking-info .address-and-date .main .date-box {
+  display: flex;
+  color: #83817F;
+  font-size: 28rpx;
+  padding-bottom: 24rpx;
+}
+
+.booking-info .address-and-date .main .date-box .date {
+  color: #FF632B;
+  padding: 0 20rpx;
+  font-size: 500;
+}
+
+.booking-info .address-and-date .main .date-box .time {
+  color: #FF632B;
+  font-size: 500;
+}
+
+.booking-info  .check-item {
+  padding-top: 22rpx;
+  height: 40rpx;
+  line-height: 40rpx;
+  display: flex;
+  align-items: center;
+  color: #494847;
+  justify-content: space-between;
+  font-size: 28rpx;
+}
+
+.booking-info  .check-item .right-icon {
+  width: 32rpx;
+  height: 32rpx;
+  background-size: 100%;
+  color: #494847;
+  background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACDklEQVRYR+2Wz2sTQRTHv2/ND00bxb9GyM7uJCh4qIgU2ZM/qAiiiKDgQfEQD6IHQUGKlIJI8VBRC7K2tqJsk2wlh70IuXkWpFCxVLRqs0+m0GYPpc3MRnrJXmeHz2e+783bJezyQ7vMR1+gn4BRAmGt5sHiIVvIESKK0zSytkAY1oYR8ySALAgT7z/Mj1SrVWMJbYGF+vwLBk5unJoYT0quPE9EbJKEtkCr1cotf1uaYvDQJpBozBbuRRMJbQEF/Twzk18cHHjN4KMJiVHhyMu6KRgJKEgQBHuzGfLBONKB0kPhyqs6EsYCCuL7fuHggeI0gHJC4r5w5fVuJVIJKMinubmBlUL+LRhOohz3hCNvdCORWkBBwjAsUtyeZXBpA8rMdxxZubWTRE8EFKTZbO5f+/v7HZgPbV5RoqrtyNvbSfRMYL0U+/KzAEQCeFe45Zv/XSCK/MLqr+I0WL8ZUyegrmNuD94w6HDipA+EW762U/3VeiqBrQYSWXhki/KVbuCpBNZH8velKY47I5ks67Et3Evdwo0FoijKrv788RLA8U7HW+Ml4VzQ/R5olyAIgkw2Yz0H83DipE9tR57ThRslsNCoTzDHpxPwZ7Yjz5r+mGgn0GgEx4jpFYAcAZNfvi6e8jyvrVP35LvaAmrzx3pwgkHenzafqVQqa6ZwoxKkgW211yiBXkr0BfoJ/APRFaghnu5VZwAAAABJRU5ErkJggg==');
+}

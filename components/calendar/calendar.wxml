@@ -1,0 +1,28 @@
+<view class="calendar">
+  <view class="calendar-title">选择预约时间</view>
+  <view class="calendar-main">
+    <view class="week-bar">
+      <view
+        wx:for="{{weekItems}}"
+        class="week-item">
+        {{item}}
+      </view>
+    </view>
+    <view class="months-box">
+      <view class="month-item">
+        <view class="month-title">2018年8月</view>
+        <view class="days">
+          <view
+            bindtap="chooseDay"
+            wx:for="{{days}}"
+            data-item="{{item}}"
+            class="day-item">
+            <view class="day-block {{index == activeIndex ? 'active-item': ''}}">
+              <view class="day-number">{{item.day}}</view>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
