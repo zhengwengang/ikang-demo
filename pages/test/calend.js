@@ -3,6 +3,6 @@ Page({
     range: [1]
   },
   onLoad () {
-    console.log(111)
+    // console.log(111)
   }
 })

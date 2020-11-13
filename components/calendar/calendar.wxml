@@ -4,6 +4,7 @@
     <view class="week-bar">
       <view
         wx:for="{{weekItems}}"
+        wx:key="index"
         class="week-item">
         {{item}}
       </view>
@@ -15,6 +16,7 @@
           <view
             bindtap="chooseDay"
             wx:for="{{days}}"
+            wx:key="index"
             data-item="{{item}}"
             class="day-item">
             <view class="day-block {{index == activeIndex ? 'active-item': ''}}">

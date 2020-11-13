@@ -1,3 +1,10 @@
 {
-  "usingComponents": {}
+  "usingComponents": {
+    "custom-navigation-bar": "/components/navigation-bar/navigation-bar",
+    "header-search": "/components/pages/index/search/search",
+    "booking-report-link": "/components/pages/index/bookingAndReportLink/bookingAndReportLink",
+    "home-entry-links": "/components/pages/index/homeEntryLinks/homeEntryLinks"
+  },
+  "navigationStyle": "custom",
+  "navigationBarTitleText": "自定义首页头部"
 }

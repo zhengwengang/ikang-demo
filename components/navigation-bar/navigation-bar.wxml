@@ -1,0 +1,9 @@
+<view
+  style="height: {{style.navHeight}}px;"
+  class="navigation-bar-container">
+  <view
+    style="background: {{style.backgroundColor}}; height: {{style.navHeight}}px;padding-top: {{style.statusBarHeight}}px;"
+    class="custom-navigation-bar-main">
+    <image class="ikang-logo" src="../../images/index/logo_top.png"></image>
+  </view>
+</view>

@@ -1,0 +1,16 @@
+<view class="booking-and-report-link-box">
+  <view class="item booking">
+    <image class="icon" src="/images/index/booking-icon.png"></image>
+    <view class="text-area">
+      <view class="title">预约</view>
+      <view class="desc">体检/齿科/疫苗</view>
+    </view>
+  </view>
+  <view class="item report">
+    <image class="icon" src="/images/index/report-icon.png"></image>
+    <view class="text-area">
+      <view class="title">报告</view>
+      <view class="desc">健康数据及时看</view>
+    </view>
+  </view>
+</view>

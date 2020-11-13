@@ -1,0 +1,22 @@
+{
+  "name": "ikang-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhengwengang/ikang-demo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhengwengang/ikang-demo/issues"
+  },
+  "homepage": "https://github.com/zhengwengang/ikang-demo#readme",
+  "dependencies": {
+    "miniprogram-api-promise": "^1.0.4"
+  }
+}

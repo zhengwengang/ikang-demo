@@ -1,0 +1,14 @@
+.custom-navigation-bar-main {
+  box-sizing: border-box;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+.ikang-logo {
+  position: absolute;
+  left: 30rpx;
+  bottom: 22rpx;
+  width: 176rpx;
+  height: 42rpx;
+}

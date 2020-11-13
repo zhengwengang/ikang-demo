@@ -1,0 +1,52 @@
+.booking-and-report-link-box {
+  margin: 0 24rpx 20rpx;
+  display: flex;
+  box-sizing: border-box;
+  padding: 0 20rpx;
+  align-items: center;
+  height: 178rpx;
+  background-color: #fff;
+  box-shadow: 0 4rpx 20rpx 0 rgba(8, 28, 58, 0.04);
+  border-radius: 16rpx;
+}
+
+.booking-and-report-link-box .item {
+  flex: 1;
+  display: flex;
+}
+
+.booking-and-report-link-box .item .icon {
+  width: 128rpx;
+  height: 128rpx;
+}
+
+.booking-and-report-link-box .item .text-area {
+  padding-left: 8rpx;
+}
+
+.booking-and-report-link-box .item .text-area .title {
+  display: inline-flex;
+  align-items: center;
+  padding-top: 14rpx;
+  font-size: 44rpx;
+  font-weight: 600;
+  color: #222;
+  line-height: 60rpx;
+}
+
+.booking-and-report-link-box .item .text-area .title:after {
+  content: '';
+  display: block;
+  width: 16rpx;
+  height: 18rpx;
+  margin-left: 20rpx;
+  background-size: 100%;
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAkCAYAAADo6zjiAAAAAXNSR0IArs4c6QAAAYBJREFUWAntlsFKhUAUQJ8+XAQ9a92qRbQOfJ/R2nUrFQIJ+oB+IagwTbFd4K4/kFb9QrvAVcugCEWxOw+ESUK8d+7s3sCgzvXec5yBGReLbVOYgTRNjxTSN6kmtUAURadd1z0lSXJGrSHyDEqygJumeTXkG4Zx63neI6UWWiCO4z0APUPflYF9398FQZDLY3Pu0Uvg+/4nfPEFFP+RATB2TlkO9AwMUICdwFffwPPOMCau2OUgCwgYh4SSAIeEsoCqBIuAigSbAFWCVYAiwS6AldAigJHQJjBXQqvAHAn0WSCKYpplWe/w/sc4B7bxdVEUS60CeZ7vN01zD/DDkcBrXdeXrut22pZAgo//mjbwMAxrIaVFYC5ciwAGzi6AhbMKUOBsAlQ4i4AKXFlAFa4kwAEnC3DBSQJZlq3atn2A5MkdThSf09BnQVVV3/Dv/zYq/md7HcUmH5eT0X+CZVn2juO82LZ9AOFj6GS4KI8WEEmSxBecatfDwSJi24adgV/RKC3BPTKbvgAAAABJRU5ErkJggg==");
+}
+
+.booking-and-report-link-box .item .text-area .desc {
+  padding-top: 8rpx;
+  font-size: 24rpx;
+  color: #999;
+  line-height: 34rpx;
+}
